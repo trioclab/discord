@@ -56,7 +56,7 @@ body , html{
 }
 .top-content{
     display: flex;
-    align-items: center;
+    margin-top: 5rem;
     justify-content: center;
     height: 100%;
 
@@ -64,6 +64,7 @@ body , html{
 .top-text{
     text-align: center;
     width: 60%;
+    z-index: 1;
 }
 #top-heading{
     font-size: 5vmax;
@@ -78,8 +79,9 @@ body , html{
 }
 #top-buttons>button{
     font-size: 1.4vmax;
-    padding: 1rem 1rem;
-    border-radius: 1rem;
+    padding: 1rem 1.4rem;
+    margin: 0 10px;
+    border-radius: 2rem;
     border: none;
     outline: none;
 }
@@ -104,11 +106,143 @@ body , html{
 }
 #chicken{
     position: absolute;
-    right:0 ;
     bottom: 0;
 }
 #chill{
     position: absolute;
-    left: 0;
     bottom: 0%;
+    right:0;
+}
+.part{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#right1{
+    width: 30%;
+    margin-left: 3rem;
+}
+.part2{
+    background-color: #f6f6f6;
+    padding: 6rem;
+    
+}
+#left2{
+    width: 30%;
+}
+#study-img{
+    width: 45vmax;
+}
+#part-heading{
+    font-size: 3.4vmax;
+    color: rgba(0, 0, 0, 0.836);
+}
+#part-para{
+    color: rgb(59, 59, 59);
+    margin: 2rem 0;
+    font-size: 1.5vmax;
+    line-height: 2vmax;
+}
+.part3{
+    padding: 3rem;
+}
+#right3{
+    width: 30%;
+    margin-left: 5rem;
+}
+.last-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:#f6f6f6 ;
+    padding: 5rem;
+}
+.last-heading{
+    width:70%;
+}
+/* #big-image{
+    width: 120%;
+} */
+#last-section-heading{
+    font-size: 3vmax;
+    font-weight: 900;
+    letter-spacing: -2px;
+    margin-bottom: 2rem;
+}
+#last-section-para{
+    font-size: 1.2vmax;
+}
+.journey{
+    width: 100%;
+    height: 15vmax;
+    background: url(./background-stars.svg)center no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#journey-heading{
+    font-size: 2.3vmax;
+    color: #23272aea;
+    font-weight: 800;
+}
+.journey>#download-btn{
+    font-size: 1.4vmax;
+    padding: 1rem 1.4rem;
+    margin:2rem 0;
+    border-radius: 2rem;
+    background: #404eed;
+    color: white;
+    border: none;
+    outline: none;
+}
+.journey>#download-btn:hover{
+    background:#404eedd2;
+    box-shadow:0 5px 10px 2px #9e9393;
+}
+.footer{
+    background-color: #23272a;
+}
+.links-section{
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: 400px repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    color: white;
+}
+ul{
+    list-style: none;
+    line-height: 2rem;
+}
+ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+h4{
+    color: #404eed;
+    margin-bottom: 1.5rem;
+}
+.icons{
+    padding-right: 3rem;
+}
+.icons>i{
+    color: white;
+    font-size: 2rem;
+    margin: 0 0.2rem;
+
+}
+hr{
+    margin:3rem;
+    width: 90%;
+    background-color: #404eed;
+    color: #404eed;
+}
+#discord-logo{
+    fill: #404eed;
+    width: 200px;
+    margin-left: 2rem;
 }
